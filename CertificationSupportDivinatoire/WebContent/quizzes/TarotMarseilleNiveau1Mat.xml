@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<quiz>
+  <title>Mat Quiz (29/05/2019)</title>
+    
+    <totalQuizQuestions>10</totalQuizQuestions>
+    <quizDuration>10</quizDuration>
+    <quizMinScoreToPass>7</quizMinScoreToPass>
+  
+      <questions>
+    
+      <question>
+        <quizquestion>Mat Q1: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <correct>1</correct>
+      </question>
+      
+      <question>
+        <quizquestion>Mat Q2: vrai?</quizquestion>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <correct>0</correct>
+      </question>
+      		
+      <question>
+        <quizquestion>Mat Q3: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <correct>2</correct>
+      </question>
+      		
+      <question>
+         <quizquestion>Mat Q4: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <correct>2</correct>
+      </question>	
+	  
+	  <question>
+         <quizquestion>Mat Q5: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <correct>1</correct>
+      </question>
+
+     <question>
+        <quizquestion>Mat Q6: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <correct>2</correct>
+      </question>
+
+      <question>
+        <quizquestion>Mat Q7: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <correct>1</correct>
+      </question>	 
+
+     <question>
+        <quizquestion>Mat Q8: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <correct>3</correct>
+      </question>	
+
+     <question>
+        <quizquestion>Mat Q9: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <correct>2</correct>
+      </question>	
+
+     <question>
+        <quizquestion>Mat Q10: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <correct>3</correct>
+      </question>	 	   
+	  
+      	
+    </questions>
+
+</quiz>

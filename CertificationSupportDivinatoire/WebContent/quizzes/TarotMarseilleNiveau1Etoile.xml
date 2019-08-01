@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<quiz>
+  <title>Etoile Quiz (29/05/2019)</title>
+    
+    <totalQuizQuestions>10</totalQuizQuestions>
+    <quizDuration>10</quizDuration>
+    <quizMinScoreToPass>7</quizMinScoreToPass>
+  
+        <questions>
+    
+      <question>
+        <quizquestion>Etoile Q1: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <correct>1</correct>
+      </question>
+      
+      <question>
+        <quizquestion>Etoile Q2: vrai?</quizquestion>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <correct>0</correct>
+      </question>
+      		
+      <question>
+        <quizquestion>Etoile Q3: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <correct>2</correct>
+      </question>
+      		
+      <question>
+         <quizquestion>Etoile Q4: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <correct>2</correct>
+      </question>	
+	  
+	  <question>
+         <quizquestion>Etoile Q5: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <correct>1</correct>
+      </question>
+
+     <question>
+        <quizquestion>Etoile Q6: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <correct>2</correct>
+      </question>
+
+      <question>
+        <quizquestion>Etoile Q7: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <correct>1</correct>
+      </question>	 
+
+     <question>
+        <quizquestion>Etoile Q8: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <correct>3</correct>
+      </question>	
+
+     <question>
+        <quizquestion>Etoile Q9: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <correct>2</correct>
+      </question>	
+
+     <question>
+        <quizquestion>Etoile Q10: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <correct>3</correct>
+      </question>	 	   
+	  
+      	
+    </questions>
+  
+</quiz>

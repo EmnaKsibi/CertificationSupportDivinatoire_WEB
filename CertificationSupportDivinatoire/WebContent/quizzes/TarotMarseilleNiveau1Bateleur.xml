@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<quiz>
+  <title>Bateleur Quiz (29/05/2019)</title>
+    
+    <totalQuizQuestions>6</totalQuizQuestions>
+    <quizDuration>2</quizDuration>
+    <quizMinScoreToPass>4</quizMinScoreToPass>
+  
+      <questions>
+    
+      <question>
+        <quizquestion>Bateleur Q1: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <correct>1</correct>
+      </question>
+      
+      <question>
+        <quizquestion>Bateleur Q2: vrai?</quizquestion>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <correct>0</correct>
+      </question>
+      		
+      <question>
+        <quizquestion>Bateleur Q3: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <correct>2</correct>
+      </question>
+      		
+      <question>
+         <quizquestion>Bateleur Q4: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <correct>2</correct>
+      </question>	
+	  
+	  <question>
+         <quizquestion>Bateleur Q5: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <correct>1</correct>
+      </question>
+
+     <question>
+        <quizquestion>Bateleur Q6: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <correct>2</correct>
+      </question>
+
+      
+      	
+    </questions>
+  
+</quiz>

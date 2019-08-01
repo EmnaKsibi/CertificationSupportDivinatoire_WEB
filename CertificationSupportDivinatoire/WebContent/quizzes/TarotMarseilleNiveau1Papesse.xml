@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<quiz>
+  <title>Papesse Quiz (29/05/2019)</title>
+    
+    <totalQuizQuestions>7</totalQuizQuestions>
+    <quizDuration>3</quizDuration>
+    <quizMinScoreToPass>4</quizMinScoreToPass>
+  
+      <questions>
+    
+      <question>
+        <quizquestion>Papesse Q1: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <correct>1</correct>
+      </question>
+      
+      <question>
+        <quizquestion>Papesse Q2: vrai?</quizquestion>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <correct>0</correct>
+      </question>
+      		
+      <question>
+        <quizquestion>Papesse Q3: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <correct>2</correct>
+      </question>
+      		
+      <question>
+         <quizquestion>Papesse Q4: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <correct>2</correct>
+      </question>	
+	  
+	  <question>
+         <quizquestion>Papesse Q5: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <correct>1</correct>
+      </question>
+
+     <question>
+        <quizquestion>Papesse Q6: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <correct>2</correct>
+      </question>
+
+      <question>
+        <quizquestion>Papesse Q7: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <correct>1</correct>
+      </question>	 
+
+     	 	   
+	  
+      	
+    </questions>
+
+</quiz>

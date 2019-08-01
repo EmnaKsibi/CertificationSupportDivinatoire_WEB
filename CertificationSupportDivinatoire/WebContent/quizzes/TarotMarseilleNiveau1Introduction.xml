@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<quiz>
+  <title>Introduction Quiz (29/05/2019)</title>
+    
+    <totalQuizQuestions>5</totalQuizQuestions>
+    <quizDuration>1</quizDuration>
+    <quizMinScoreToPass>3</quizMinScoreToPass>
+  
+    <questions>
+    
+      <question>
+        <quizquestion>Introduction Q1: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <correct>1</correct>
+      </question>
+      
+      <question>
+        <quizquestion>Introduction Q2: vrai?</quizquestion>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <correct>0</correct>
+      </question>
+      		
+      <question>
+        <quizquestion>Introduction Q3: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <correct>2</correct>
+      </question>
+      		
+      <question>
+         <quizquestion>Introduction Q4: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <correct>2</correct>
+      </question>	
+	  
+	  <question>
+         <quizquestion>Introduction Q5: vrai?</quizquestion>
+        <answer>faux</answer>
+        <answer>vrai</answer>
+        <answer>faux</answer>
+        <answer>faux</answer>
+        <correct>1</correct>
+      </question>
+
+   
+      	
+    </questions>
+</quiz>

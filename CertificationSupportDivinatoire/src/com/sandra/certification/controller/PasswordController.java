@@ -28,13 +28,13 @@ public class PasswordController extends HttpServlet {
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String applicationContextPath = request.getContextPath();
-		if (request.getRequestURI().equals(
-				applicationContextPath + "/changePassword")) {
-			RequestDispatcher dispatcher = request
-					.getRequestDispatcher("/WEB-INF/jsps/chgementPassword.jsp");
-			dispatcher.forward(request, response);	
-			}
+		 if(request.getSession().getAttribute("user")!=null) {
+			 RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsps/chgementPassword.jsp");
+			 dispatcher.forward(request, response);	
+		 }else {
+			 RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsps/login.jsp");
+			dispatcher.forward(request, response);	 
+		 }
 	}
 
 	
@@ -46,7 +46,7 @@ public class PasswordController extends HttpServlet {
 		ResultSet set=null;
 		String id = "";
 		String password = "";
-		String resp="/WEB-INF/jsps/login.jsp";
+		String resp=request.getContextPath()+"/login";
 
 		try
 		{
@@ -66,10 +66,10 @@ public class PasswordController extends HttpServlet {
 			}else{
 				System.err.println("[ErrorPassC] user["+password+"] id["+id+"] Invalid currentPassword");
 				request.setAttribute("errorMessage","Mot de passe Actuel invalide.");
-				resp="/WEB-INF/jsps/chgementPassword.jsp";
+				resp=request.getContextPath()+"/changePassword";
 			}
-			RequestDispatcher rd=request.getRequestDispatcher(resp);
-			rd.forward(request, response);		
+            response.sendRedirect(resp);
+
 
 		}catch(SQLException sqe){System.err.println("[ErrorPassC] While Fetching records from database");}
 		try

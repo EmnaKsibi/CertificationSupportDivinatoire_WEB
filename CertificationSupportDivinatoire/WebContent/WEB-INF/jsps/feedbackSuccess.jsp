@@ -24,7 +24,7 @@
 	</div>
 
 	<div class="bar theme card-2 wide notranslate">	
-		  <a href='${pageContext.request.contextPath}/homeUser' class=" bar-item button barex hover-blue padding-16 "><i class="fa fa-home"></i>  ACCUEIL</a>		  
+		  <a href='${pageContext.request.contextPath}/home${sessionScope.droit.substring(0,1).toUpperCase()}${sessionScope.droit.substring(1)}' class=" bar-item button barex hover-blue padding-16 "><i class="fa fa-home"></i>  ACCUEIL</a>		  
 		  <div class="right">
 			 <a class="bar-item button barex hover-blue padding-16" href='${pageContext.request.contextPath}/logout'>DÉCONNEXION</a>
 		  </div>
@@ -32,7 +32,7 @@
 	
 	<div class="display-container white center" id="certsection">
 		<br class="hidesm">
-		<img src="${pageContext.request.contextPath}/images/registred.jpg" style="max-width:50%;margin: 3% auto;display:block" >    
+		<img src="${pageContext.request.contextPath}/images/feedbackSuccess.jpg" style="max-width:50%;margin: 3% auto;display:block" >    
 		<h2>Merci pour votre feedback <b class=" text-green">${sessionScope.user}</b>.</h2>
 		<p>Vos suggestions ont été envoyées au webmaster.</p>
 	</div>

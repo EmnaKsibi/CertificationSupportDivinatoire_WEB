@@ -29,14 +29,22 @@ public class LoginController extends HttpServlet {
         super();
         // TODO Auto-generated constructor stub
     }
+    
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	
+		request.setAttribute("errorMessage", "Pseudo ou Password invalide");
+		RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsps/login.jsp");
+		dispatcher.forward(request, response);
 
+	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 	
 		
 		String username=request.getParameter("username");
 		String password=request.getParameter("password");				
-		Connection con=DatabaseConnectionFactory.createConnection();		
+		Connection con=DatabaseConnectionFactory.createConnection();
+		String redirectURL=request.getContextPath()+"/login";
 		ResultSet set=null;
 		String id = "";
 		String matricule = "";
@@ -55,14 +63,12 @@ public class LoginController extends HttpServlet {
 				 droit = set.getString("droit");
 				 matricule = set.getString("matricule");
 			 }
-			 RequestDispatcher rd;
 			 HttpSession session=request.getSession();
 
 			 if(i!=0 && password.equals(username+"01")) {
 			     System.out.println("[InfoLC] First time connected [request change password]");
 				 session.setAttribute("user",username);  
-			     rd=request.getRequestDispatcher("/WEB-INF/jsps/chgementPassword.jsp");		
-				 rd.forward(request, response); 
+				  redirectURL=request.getContextPath()+"/changePassword";
 			 }else if(i!=0 && !password.equals(username+"01")){   
 				
 				 session.setAttribute("user",username);  
@@ -71,23 +77,20 @@ public class LoginController extends HttpServlet {
 			     session.setAttribute("id",id);
 		     
 			     System.out.println("[InfoLC] Successful login User : "+username+"  Droit: "+droit+"  Matricule: "+matricule+"  ID_Table_User: "+id);
-						
 					if (droit.equals("admin")) {
-						rd=request.getRequestDispatcher("/WEB-INF/jsps/homeAdmin.jsp");		
-						rd.forward(request, response); 
+			            redirectURL= request.getContextPath()+"/homeAdmin";
 					} else if  (droit.equals("formateur")) {
-						rd=request.getRequestDispatcher("/WEB-INF/jsps/homeFormateur.jsp");
-						rd.forward(request, response); 
+			            redirectURL= request.getContextPath()+"/homeFormateur";
 					} else if  (droit.equals("user")) {
-						rd=request.getRequestDispatcher("/WEB-INF/jsps/homeUser.jsp");
-						rd.forward(request, response); 
+			            redirectURL= request.getContextPath()+"/homeUser";
 					}	
+
 			}else{   
-				request.setAttribute("errorMessage","Pseudo ou Password invalide");
-			    rd=request.getRequestDispatcher("/WEB-INF/jsps/login.jsp");
-				rd.forward(request, response);
+	            redirectURL=request.getContextPath()+"/checkLogin";
 				System.err.println("[ErrorLC] Invalid username or password");
 			}
+			 response.sendRedirect(redirectURL);
+			 
 		}catch(SQLException sqe){System.err.println("[ErrorLC] While Fetching records from database");}
 		try
 		{

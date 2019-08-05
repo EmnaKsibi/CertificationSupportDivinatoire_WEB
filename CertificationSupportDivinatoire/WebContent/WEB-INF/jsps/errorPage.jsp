@@ -28,9 +28,8 @@
 	<div class="row white padding center">
 	  <img src="${pageContext.request.contextPath}/images/errorPage.png" style="max-width:30%;margin:0px auto;display:block" >	   	
 	  <div class="col s12">
-			 <p class="text-grey">The page you were looking for doesnt exist.</p>
-		     <a href='${pageContext.request.contextPath}/logout' class=" btn blue ">« Go back to our homepage</a>		  
-	  </div>	
+			<p class="text-grey">The page you were looking for doesnt exist.</p>
+			<a href='${pageContext.request.contextPath}/home${sessionScope.droit.substring(0,1).toUpperCase()}${sessionScope.droit.substring(1)}' class=" btn blue " >« Go back to our homepage</a>	  </div>	
 	</div>
 	
 

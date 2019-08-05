@@ -14,8 +14,7 @@
  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/free-jqgrid/4.13.5/css/ui.jqgrid.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
  	<script src="https://cdnjs.cloudflare.com/ajax/libs/free-jqgrid/4.13.5/js/jquery.jqgrid.min.js"></script> 
-	
-	
+		
 	<style type="text/css">
 		.sidebar {
 			z-index:3;
@@ -151,6 +150,9 @@
 
 
 <script type="text/javascript"  >
+	$('#nav_settings').mouseleave(function() {
+	    $('#nav_settings').hide();
+	});
 	function open_nav(x) {
 	  if (document.getElementById("nav_" + x).style.display == "block") {
 	    close_nav(x);

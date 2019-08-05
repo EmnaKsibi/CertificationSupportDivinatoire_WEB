@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" >
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/W3.css?v=7">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/styles.css?v=15">    
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	
 	<style type="text/css">
 	.sidebar {
 		z-index:3;
@@ -165,7 +167,9 @@
 	  }
 	}
 
-	
+	$('#nav_settings').mouseleave(function() {
+	    $('#nav_settings').hide();
+	});
 </script>
 
 	 

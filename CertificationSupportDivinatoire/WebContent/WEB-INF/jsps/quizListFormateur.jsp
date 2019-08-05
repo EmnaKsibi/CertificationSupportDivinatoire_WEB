@@ -587,6 +587,9 @@ jQuery(function($) {
 	    document.getElementById("navbtn_" + x).getElementsByTagName("i")[1].style.display = "none";
 	  }
 	}
+	$('#nav_settings').mouseleave(function() {
+	    $('#nav_settings').hide();
+	});
  </script>
  
  

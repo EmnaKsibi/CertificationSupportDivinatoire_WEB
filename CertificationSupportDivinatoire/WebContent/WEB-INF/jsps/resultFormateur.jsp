@@ -348,7 +348,9 @@
 	
 	    }
 	});
-            
+	$('#nav_settings').mouseleave(function() {
+	    $('#nav_settings').hide();
+	});
  </script>
 </body>
 </html>

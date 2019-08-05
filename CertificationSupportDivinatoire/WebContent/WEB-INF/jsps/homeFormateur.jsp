@@ -175,7 +175,9 @@
 	
 	
 <script type="text/javascript"  >
-
+		$('#nav_settings').mouseleave(function() {
+		    $('#nav_settings').hide();
+		});
 		function open_nav(x) {
 		  if (document.getElementById("nav_" + x).style.display == "block") {
 		    close_nav(x);

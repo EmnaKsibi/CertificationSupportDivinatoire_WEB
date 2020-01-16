@@ -66,20 +66,6 @@
 
 	<!-- MAIN -->
 	<div class="main" id="main" >
-		<div class="display-container black " id="certsection">
-		    <img src="${pageContext.request.contextPath}/images/book.png" style="max-width:100%;margin:auto;display:block" >
-		    <div class="certoverlay hide-small ">
-		  	  <br class="hide-small hide-medium">
-		      <h2>Bienvenue à Certification support divinatoire</h2>
-		      <h3>Ce site est dédié à l'apprentissage de plusieurs outils liés aux divinations</h3>
-		       <p>       
-				<br>Vous pouvez examiner la liste des voyants!
-				<br>Vous pouvez examiner la liste des Formateurs!
-				<br>Vous pouvez ajouter un Nouveau Voyant/Formateurs!
-				<br>Vous pouvez examiner Liste des Feedback et supprimer les commentaires déjà vus!
-				</p>
-		    </div>
-		</div>
 	
 		<div class="row margin-bottom">
 			 <div class="col l4 center" style="padding:3%;">
@@ -133,8 +119,19 @@
 	
 	<!--Footer -->
 	
-	<div class="display-container black" >
-		    <img src="${pageContext.request.contextPath}/images/mystic.jpg" style="max-width:100%;margin:auto;display:block" alt="W3 Certificates"> 
+	<div class="display-container black " id="certsection">
+		    <img src="${pageContext.request.contextPath}/images/book.png" style="max-width:100%;margin:auto;display:block" >
+		    <div class="certoverlay hide-small ">
+		  	  <br class="hide-small hide-medium">
+		      <h2>Bienvenue à Certification support divinatoire</h2>
+		      <h3>Ce site est dédié à l'apprentissage de plusieurs outils liés aux divinations</h3>
+		       <p>       
+				<br>Vous pouvez examiner la liste des voyants!
+				<br>Vous pouvez examiner la liste des Formateurs!
+				<br>Vous pouvez ajouter un Nouveau Voyant/Formateurs!
+				<br>Vous pouvez examiner Liste des Feedback et supprimer les commentaires déjà vus!
+				</p>
+		    </div>
 	</div>
 	<div class="container dark-grey center padding-32">
 			 <p class="medium">		 

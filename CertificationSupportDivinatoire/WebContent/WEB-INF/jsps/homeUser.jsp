@@ -9,16 +9,17 @@
    <link rel="icon" href="/favicon.ico" type="image/x-icon">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" >
    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/W3.css?v=7">
-   <link rel="stylesheet" href="${pageContext.request.contextPath}/css/styles.css?v=16">
+   <link rel="stylesheet" href="${pageContext.request.contextPath}/css/styles.css?v=18">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
    <style type="text/css">
+
 		.sidebar {
 			z-index:3;
 			width:230px;
 			overflow:hidden !important;
 			position:absolute !important;
-			margin-bottom:-155px;
+			margin-bottom:0px !important;
 			}
 	</style>	
     <title>Certification Support Divinatoire</title>
@@ -193,20 +194,9 @@
 	 </div>
 	</div>
 	
-	<!-- MAIN -->
-	<div class="main" id="main">
-	<div class="display-container black" id="certsection">
-	    <img src="${pageContext.request.contextPath}/images/book.png" style="max-width:100%;margin:auto;display:block" >
-	    <div class="certoverlay">
-	  	  <br class="hide-small hide-medium">
-	      <h2>Bienvenue à Certification support divinatoire</h2>
-	      <h3>Ce site est dédié à l'apprentissage de plusieurs outils liés aux divinations</h3>
-	       <p>
-			<br>Vous pouvez consulter notre support des tutoriels!
-			<br>Vous pouvez tester votre niveau!
-			<br>Vous pouvez vérifier vos résultats!</p>
-	    </div>
-	</div>
+<!-- MAIN -->
+<div class="main" id="main">
+	
 
 	<div class="row margin-bottom">
 		 <div class="col l6 center " style="padding:3%">
@@ -298,38 +288,22 @@
 		 </div>
 	</div>
 
-	<div class="white center padding-large padding-16" style="padding-bottom:36px!important">
+	<div class="white center padding-large padding-16">
 	  <h2 class="xxlarge">Feedback</h2>
 	  <h4 class="text-dark-grey">Avez-vous des idées?</h4>
-	  <div class="content hide-device">
-	    <div class="row-padding" style="margin:32px -16px">
-	      <div class="col l6 s12">
-	        <iframe src="/howto/tryhow_css_sidenav_ifr.htm" style="width:100%;border:5px solid #ddd;height:300px"></iframe>
-	      </div>
-	      <div class="col l6 hide-small hide-medium">
-	        <iframe src="/howto/tryhow_css_sidenav_ifr2.htm" style="width:100%;border:5px solid #ddd;height:300px"></iframe>
-	      </div>
-	    </div>
-	  </div>
 	  <p><a href='${pageContext.request.contextPath}/feedback' class="button dark-grey padding-large mobile">CONTACTEZ NOUS</a></p>
 	</div>
 	
-	<div class="display-container black" id="certsection">
-	    <img src="${pageContext.request.contextPath}/images/mystic.jpg" style="max-width:100%;margin:auto;display:block" alt="W3 Certificates"> 
-	</div>
-	<div class="container dark-grey center padding-32">
-		 <p class="medium">
-		 WikiCosmos is optimized for learning, testing, and training to improve readings and basic understanding. 
-		 Tutorials, certifcation, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of
-		 all content.<br>
-		 <a href="#" class="hover-text-blue">Copyright 2019</a> All Rights Reserved.<br><br></p>
-		 <br class="hidesm">
-	</div>
-	
-	
-	
 </div>
 <!--END MAIN -->
+
+	
+	<!--FOOTER -->
+	<div id="footer" class="footer container white">
+	baf
+	</div>
+	
+
 
 
 
